@@ -1,0 +1,69 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+.img-top{
+    position: absolute;
+    left: -15%;
+    top: -73%;
+}
+
+.img-bottom{
+    position: fixed;
+    right: -12%;
+    bottom: -85%;
+    z-index: -1;
+}
+.size{
+    font-size: 16px ;
+    color: grey;
+    opacity: 0.95;
+}
+
+.center{ 
+    position: absolute;
+    margin: 10% 25% 20% 38%;
+}
+hr{
+    background-color: grey;
+    opacity: 0.2;
+}
+.text{   
+    font-family: 'Kumbh Sans', sans-serif;
+    font-Weight: 400, 700;
+}
+.align{
+   color: grey;
+   opacity: 0.95;
+
+}
+
+.card{ 
+    width: 350px;
+    height: 140px;
+    border: 0px solid hsl(185, 75%, 39%);
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.circleCard{
+    margin-left: -50%;
+    margin-bottom: -10%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.whiteSpace{
+    margin-top: -6%;
+    width: 350px;
+    height: 240px;
+    background-color: #ffffff ;
+    border: 0px solid white;
+    border-radius: 0px 0px 16.25px 16.25px;
+    box-shadow: 10px 10px 100px grey;
+}
+
+.attribution{
+    margin-top: 35%;
+    margin-left: -25%;
+}
